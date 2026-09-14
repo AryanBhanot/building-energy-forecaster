@@ -3,7 +3,7 @@ from google.cloud import storage
 def download_blob(bucket_name, source_blob_name, destination_file_name):
     """Downloads a blob from the bucket."""
     # The ID of your GCS bucket
-    # bucket_name = "your-bucket-name"
+    bucket_name = "energy-data-ashrae"
 
     # The ID of your GCS object
     # source_blob_name = "storage-object-name"
